@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Style form container */
+.form-inline {
+    background-color: #f8f9fa; 
+    /* Light background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    width: 400px; /* Adjust width as needed */
+}
+
+/* Style form labels */
+.form-group label {
+    padding: 10px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+/* Style form inputs */
+.form-control {
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 5px;
+    width: 100%; /* Make input width 100% */
+    background-color: transparent;
+}
+
+/* Style loading image */
+#loading {
+    width: 50px;
+    height: 50px;
+}
+
+/* Center loading image */
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Position the form overlay */
+.form-overlay {
+    z-index: 1;
+}
+
+/* Position the background image */
+.background-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50;
+    left: 0;
+    z-index: 0;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    
+}
